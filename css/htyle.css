@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.continar{
+    height: 90vh;
+    background-image: url(/img/pexels-mareklevak-2265488.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.banner-text{
+    text-align: center;
+    padding:200px;
+}
+.banner-text h1{
+    font-size: 50px;
+    font-weight:bold;
+}
+.banner-text h1 .spn{
+    color: rgb(174, 42, 42);
+    font-family:"Nunito", sans-serif;
+}
+.banner-text p{
+    font-size: 20px;
+}
+.banner-text p .clr{
+    color: red;
+    font-size:30px;
+    font-weight: bold;
+}
+.banner-text button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #008CBA;
+    border: none;
+    font-size: 20px;
+    font-family:"Nunito", sans-serif;
+}
+.banner-text button:hover{
+    background-color: aqua;
+    transition: all 4s;
+    color: rgb(135, 89, 27);
+}
